@@ -1,11 +1,11 @@
 export const config = {
   children: {
     pattern: "./src/**/*.{ts,tsx}",
-    ignore: [/\.spec\.tsx?/, /src\/index\.ts/]
+    ignore: [/\.(spec|test)\.tsx?/, /src\/index\.ts/]
   },
   parents: {
     pattern: "./src/**/*.{ts,tsx}",
-    ignore: [/\.spec\.tsx?/]
+    ignore: [/\.(spec|test)\.tsx?/]
   },
   exts: ["ts", "tsx"]
 };
